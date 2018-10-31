@@ -9,7 +9,8 @@ resolvers += "Sonatype OSS Snapshots" at
 
 libraryDependencies ++= Seq(
   "com.github.axel22" %% "scalameter" % "0.5-M2",
-  "org.roaringbitmap" % "RoaringBitmap" % "0.5.11"
+  "org.roaringbitmap" % "RoaringBitmap" % "0.5.11",
+  "net.sf.trove4j" % "trove4j" % "3.0.3"
 )
 
 testFrameworks += new TestFramework(

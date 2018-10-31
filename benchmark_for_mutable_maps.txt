@@ -1,0 +1,46 @@
+Perfomance run for mutable.Map (based on java.util.HashMap to harness size knowledge)
+
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.0): 0.041647
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.15): 0.03998
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.5): 0.039827
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.75): 0.039813
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.0): 0.062504
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.15): 0.070756
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.5): 0.071876
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.75): 0.076766
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.0): 0.121902
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.15): 0.14561
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.5): 0.102071
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.75): 0.102847
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.0): 0.216459
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.15): 0.206867
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.5): 0.145635
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.75): 0.099566
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.0): 0.406008
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.15): 0.659659
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.5): 0.564359
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.75): 0.290638
+
+
+Perfomance run for GNU Trove IntToByteMap
+
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.0): 0.036419
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.15): 0.039629
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.5): 0.039832
+[info] Parameters(total blocks -> 100, empty blocks percentage -> 0.75): 0.039916
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.0): 0.082979
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.15): 0.091102
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.5): 0.06779
+[info] Parameters(total blocks -> 1000, empty blocks percentage -> 0.75): 0.084193
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.0): 0.212098
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.15): 0.203483
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.5): 0.19197
+[info] Parameters(total blocks -> 5000, empty blocks percentage -> 0.75): 0.171764
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.0): 0.220412
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.15): 0.217075
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.5): 0.220104
+[info] Parameters(total blocks -> 10000, empty blocks percentage -> 0.75): 0.105427
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.0): 0.478144
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.15): 0.416934
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.5): 0.225371
+[info] Parameters(total blocks -> 20000, empty blocks percentage -> 0.75): 0.157122
